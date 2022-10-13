@@ -43,6 +43,7 @@ iframe#tela{
     left: 350px;
     width: 269px;
     height: 470px;
+    position: fixed;
     
     
 

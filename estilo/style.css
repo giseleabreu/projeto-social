@@ -45,7 +45,7 @@ iframe#tela{
 }
 
 section#redes-sociais{
-    text-align: right; /*Para colocar os icones a direita*/
+    text-align: top; /*Para colocar os icones a direita*/
 }
 
 section#redes-sociais img {

@@ -42,11 +42,23 @@ iframe#tela{
     left: 22px;
     width:267px;
     height:471px;
-    
-
-   
-    
-    
-
 }
 
+section#redes-sociais{
+    text-align: right; /*Para colocar os icones a direita*/
+}
+
+section#redes-sociais img {
+    width:50px; /*Para deixar as img reduzidas*/
+    margin: 10px; /*Afastamento das img*/
+    border-radius: 50%; /*Para deixar arredondadas*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.251); /*Tom de sombreado*/
+    box-sizing: border-box; /*Bordar que faz parte do objeto*/
+    
+}
+
+section#redes-sociais img:hover{ /*Efeito de mouse em cima*/
+    border: 2px solid rgba(255, 255, 255, 0.316); /*Bordar geral, que não faz parte do objeto (precisa fazer parte de cada objeto)*/
+    transform: translate(-3px, -3px); /*Efeito de botões levantando*/
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.795) ;/*Sobra levantando paraa acompanhar*/
+}
